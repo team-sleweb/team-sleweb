@@ -2,6 +2,20 @@
     border: solid black 1px !important;
 }
 
+:root {
+    --sle-bg: #e0e0e0;
+    --sle-bg-light: #ffffff;
+    --sle-bg-dark: #aeaeae;
+    
+    --sle-text: #424242;
+    --sle-text-light: #6d6d6d;
+    --sle-text-dark: #1b1b1b;
+
+    --sle-green: #4CAF50;
+    --sle-green-light: #80E27E;
+    --sle-green-dark: #087F23;
+}
+
 html, body {
     height: 100%;
 }
