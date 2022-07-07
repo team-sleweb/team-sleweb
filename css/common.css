@@ -3,9 +3,9 @@
 }
 
 :root {
-    --sle-bg: #e0e0e0;
-    --sle-bg-light: #ffffff;
-    --sle-bg-dark: #aeaeae;
+    --sle-bg: #bdbdbd;
+    --sle-bg-light: #efefef;
+    --sle-bg-dark: #8d8d8d;
     
     --sle-text: #424242;
     --sle-text-light: #6d6d6d;
@@ -14,11 +14,24 @@
     --sle-green: #4CAF50;
     --sle-green-light: #80E27E;
     --sle-green-dark: #087F23;
+
+    --sle-headline: 28px;
+    --sle-headline-small: 24px;
+    --sle-headline-large: 32px;
+
+    --sle-title: 16px;
+    --sle-title-small: 14px;
+    --sle-title-large: 22px;
+
+    --sle-body: 14px;
+    --sle-body-small: 12px;
+    --sle-body-large: 16px;
 }
 
 html, body {
     height: 100%;
 }
+
 body {
     display: flex;
     flex-direction: column;
