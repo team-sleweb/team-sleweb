@@ -51,30 +51,44 @@
                         어떤 활동을 하나요??
                     </div>
                 </div>
-                <div class="container">
-                    <div class="item">
-                        <div class="pletters">A</div>
-                        <img class="image" src="https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_1280.jpg">
+                <div class="pcontainer">
+                    <div class="pitem">
+                        <div class="pletters">이미지 클릭 시 창 이동</div>
+                        <img class="pimage" src="https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_1280.jpg" style="cursor:pointer" onclick="window.open('https://www.naver.com/','asdfo8or','scrollbars=yes');">
+                        
+                        <!--
+                        <img class="pimage" src="https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_1280.jpg">
+                    -->
                     </div>
-                    <div class="item">
-                        <div class="pletters">B</div>
-                        <img class="image" src="https://media.istockphoto.com/photos/reflection-on-f-autum-season-picture-id1171058917?b=1&k=20&m=1171058917&s=170667a&w=0&h=9M8qqMLcNhHnau7mB5rYWEmkHNKqeQw3nsDkpL_ye10=">
+                    <div class="pitem">
+                        <!--<div class="pletters">B</div>-->
+                        <div class="wrap">
+                            <a href="#pop_info_1" class="btn_open">팝업 열기1</a>
+                          
+                            <div id="pop_info_1" class="pop_wrap" style="display:none;">
+                              <div class="pop_inner">
+                                <p class="dsc">팝업 안내문구 입니다.</p>
+                                <button type="button" class="btn_close">닫기</button>
+                              </div>
+                            </div>
+                            </div>
+                        <img class="pimage" src="https://media.istockphoto.com/photos/reflection-on-f-autum-season-picture-id1171058917?b=1&k=20&m=1171058917&s=170667a&w=0&h=9M8qqMLcNhHnau7mB5rYWEmkHNKqeQw3nsDkpL_ye10=">
                     </div>
-                    <div class="item">
+                    <div class="pitem">
                         <div class="pletters">C</div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398067?k=20&m=516398067&s=612x612&w=0&h=b77lPkG4RXWGRSPYWTBJVISSuh9QlZogsBxj5o6gveo=">
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398067?k=20&m=516398067&s=612x612&w=0&h=b77lPkG4RXWGRSPYWTBJVISSuh9QlZogsBxj5o6gveo=">
                     </div>
-                    <div class="item">
+                    <div class="pitem">
                         <div class="pletters">D</div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398259?k=20&m=516398259&s=612x612&w=0&h=d1h402qJy9r40PZ9mfXIs5ZWCGhZF-fyV4NN9V7BCME=">
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398259?k=20&m=516398259&s=612x612&w=0&h=d1h402qJy9r40PZ9mfXIs5ZWCGhZF-fyV4NN9V7BCME=">
                     </div>
-                    <div class="item">
+                    <div class="pitem">
                         <div class="pletters">E</div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id521997531?k=20&m=521997531&s=612x612&w=0&h=C1kUUuStyQntUiQcDjg6HpsGsJvPdZpvvXHY0dWwGEA=">
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id521997531?k=20&m=521997531&s=612x612&w=0&h=C1kUUuStyQntUiQcDjg6HpsGsJvPdZpvvXHY0dWwGEA=">
                     </div>
-                    <div class="item">
+                    <div class="pitem">
                         <div class="pletters">F</div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id514177549?k=20&m=514177549&s=612x612&w=0&h=GJQJpjJq9ANIM3F3lsm7SnVV6sfbwD3kfu9p5MCUBgc=">
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id514177549?k=20&m=514177549&s=612x612&w=0&h=GJQJpjJq9ANIM3F3lsm7SnVV6sfbwD3kfu9p5MCUBgc=">
                     </div>
                 </div>
             </article>
@@ -84,5 +98,29 @@
         </section>
     </main>
     <footer>footer</footer>
+
+    <script>
+        var target = document.querySelectorAll('.btn_open');
+var btnPopClose = document.querySelectorAll('.pop_wrap .btn_close');
+var targetID;
+
+// 팝업 열기
+for(var i = 0; i < target.length; i++){
+  target[i].addEventListener('click', function(){
+    targetID = this.getAttribute('href');
+    document.querySelector(targetID).style.display = 'block';
+  });
+}
+
+// 팝업 닫기
+for(var j = 0; j < target.length; j++){
+  btnPopClose[j].addEventListener('click', function(){
+    this.parentNode.parentNode.style.display = 'none';
+  });
+}
+    </script>
+
+
+
 </body>
 </html>

@@ -35,6 +35,10 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    line-height:130%; 
+    /*
+    줄간격 130% 설정
+    */
 }
 
 body > main {
