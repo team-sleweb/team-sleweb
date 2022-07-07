@@ -16,9 +16,17 @@
      border-radius:30px;
      border: solid 1px black;
  }
- .letters{
+ .pletters{
      text-align:center;
+     font-size: var(--sle-body-large);
+     text-align: center;
  }
- .project{
-     text-align:center;
+ .pname{
+     text-align:left;
+ }
+ .ptitle{
+    font-size: var(--sle-headline);
+ }
+ .pintro{
+    font-size: var(--sle-headline-small);
  }
