@@ -1,6 +1,3 @@
-* {
-    border: solid black 1px !important;
-}
 
 :root {
     --sle-bg: #bdbdbd;
@@ -35,6 +32,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 body > main {
