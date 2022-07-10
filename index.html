@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="css/project.css">
+    
     <title>슬기짜기</title>
 </head>
 <body>
@@ -46,36 +47,100 @@
                 activities
             </article>
             <article class="project">
-                <div class="name">
-                    <h2>방학 프로젝트</h2>
-                    <h3>어떤 활동을 하나요??</h3>
-                </div>
-                <div class="container">
-                    <div class="item">
-                        <div class="letters"><h4>A</h4></div>
-                        <img class="image" src="https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_1280.jpg">
-                    </div>
-                    <div class="item">
-                        <div class="letters"><h4>B</h4></div>
-                        <img class="image" src="https://media.istockphoto.com/photos/reflection-on-f-autum-season-picture-id1171058917?b=1&k=20&m=1171058917&s=170667a&w=0&h=9M8qqMLcNhHnau7mB5rYWEmkHNKqeQw3nsDkpL_ye10=">
-                    </div>
-                    <div class="item">
-                        <div class="letters"><h4>C</h4></div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398067?k=20&m=516398067&s=612x612&w=0&h=b77lPkG4RXWGRSPYWTBJVISSuh9QlZogsBxj5o6gveo=">
-                    </div>
-                    <div class="item">
-                        <div class="letters"><h4>D</h4></div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398259?k=20&m=516398259&s=612x612&w=0&h=d1h402qJy9r40PZ9mfXIs5ZWCGhZF-fyV4NN9V7BCME=">
-                    </div>
-                    <div class="item">
-                        <div class="letters"><h4>E</h4></div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id521997531?k=20&m=521997531&s=612x612&w=0&h=C1kUUuStyQntUiQcDjg6HpsGsJvPdZpvvXHY0dWwGEA=">
-                    </div>
-                    <div class="item">
-                        <div class="letters"><h4>F</h4></div>
-                        <img class="image" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id514177549?k=20&m=514177549&s=612x612&w=0&h=GJQJpjJq9ANIM3F3lsm7SnVV6sfbwD3kfu9p5MCUBgc=">
-                    </div>
-                </div>
+                <article class="pname">
+                    <article class="ptitle">
+                        방학 프로젝트
+                    </article>
+                    <article class="pintro">
+                        어떤 활동을 하나요??
+                    </article>
+                </article>
+                <article class="pcontainer">
+                    <article class="pitem">
+                        <article class="pletters">이미지 클릭 시 창 이동</article>
+                        <img class="pimage" src="https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_1280.jpg" style="cursor:pointer" onclick="window.open('https://www.naver.com/','asdfo8or','scrollbars=yes');">
+                        
+                        <!--
+                        <img class="pimage" src="https://cdn.pixabay.com/photo/2022/06/21/21/56/konigssee-7276585_1280.jpg">
+                    -->
+                </article>
+                    <article class="pitem">
+                        <!--<div class="pletters">B</div>-->
+                        <div class="container">
+                            <div class="modal-btn-box">
+                            <button type="button" id="modal-open">모달창 열기</button>  
+                            </div>
+                            
+                            <div class="popup-wrap" id="popup">
+                              <div class="popup">
+                                <div class="popup-head">
+                                    <span class="head-title">
+                                      MuziMuzi</span>
+                                </div>
+                                <div class="popup-body">
+                                  <div class="body-content">
+                                    <div class="body-titlebox">
+                                      <h1>Confirm Modal</h1>
+                                    </div>
+                                    <div class="body-contentbox">
+                                      <p>컨테이너 박스가 있고 그 안에 
+                          
+                          각각 가로값과 세로값이 다른 박스 아이템이 있습니다.
+                          
+                          위의 상태 그대로 라면 div의 기본속성은 display block이기 때문에 가로값과 관계없이 세로영역 만큼 한줄을 다 차지하기 때문에 
+                          
+                          div박스들은 아래와 같이 수직으로 떨어지게 됩니다.</p>
+                                    
+                                    <p>
+                                      다시 원점으로 돌아와서 
+                          
+                          flexbox의 부모요소와 자식요소는 각각 사용할 수 있는 속성이 있습니다.
+                          
+                          부모요소(flex container) 속성 : flex-direction, flex-wrap, justify-content, align-items, align-content
+                          
+                          자식요소(flex item) 속성 : flex, flex-grow, flex-shrink, flex-basis, order 
+                                    </p>
+                                    <p>
+                                      부모요소의
+                          
+                          flex-direction : flex item의 정렬 방향 (기본값 가로)
+                          
+                          justify-content : flex item의 수평 정렬 (기본값 flex-start)
+                          
+                          align-items : flex item의 수직 정렬 (기본값 stretch)
+                                    </p>
+                                    </div>
+                                    
+                                    
+                                  </div>
+                                </div>
+                                <div class="popup-foot">
+                                  <span class="pop-btn confirm" id="confirm">확인</span>
+                                  <span class="pop-btn close" id="close">창 닫기</span>
+                                </div>
+                              </div>
+                          </div>
+                          </div>
+                       
+                    </article>
+                    <article class="pitem">
+                        <article class="pletters">C</article>
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398067?k=20&m=516398067&s=612x612&w=0&h=b77lPkG4RXWGRSPYWTBJVISSuh9QlZogsBxj5o6gveo=">
+                    </article>
+                    <article class="pitem">
+                        <article class="pletters">D</article>
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id516398259?k=20&m=516398259&s=612x612&w=0&h=d1h402qJy9r40PZ9mfXIs5ZWCGhZF-fyV4NN9V7BCME=">
+                    </article>
+                    <article class="pitem">
+                        <article class="pletters">E</article>
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id521997531?k=20&m=521997531&s=612x612&w=0&h=C1kUUuStyQntUiQcDjg6HpsGsJvPdZpvvXHY0dWwGEA=">
+                    </article>
+                    <article class="pitem">
+                        <article class="pletters">F</article>
+                        <img class="pimage" src="https://media.istockphoto.com/photos/playful-grandfather-picture-id514177549?k=20&m=514177549&s=612x612&w=0&h=GJQJpjJq9ANIM3F3lsm7SnVV6sfbwD3kfu9p5MCUBgc=">
+                    </article>
+                </article>
+                <script src="jw.js"></script>
             </article>
             <article class="recruitment">
                 recruitment
@@ -83,5 +148,10 @@
         </section>
     </main>
     <footer>footer</footer>
+
+    
+
+
+
 </body>
 </html>

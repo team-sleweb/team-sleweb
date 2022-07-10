@@ -33,6 +33,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
+    line-height:130%; 
+    /*
+    줄간격 130% 설정
+    */
 }
 
 body > main {
