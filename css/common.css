@@ -13,16 +13,16 @@
     --sle-green-dark: #087F23;
 
     --sle-headline: 28px;
-    --sle-headline-small: 24px;
-    --sle-headline-large: 32px;
+    --sle-title: 22px;
+    --sle-body: 16px;
+}
 
-    --sle-title: 16px;
-    --sle-title-small: 14px;
-    --sle-title-large: 22px;
+h1 {
+    font-size: var(--sle-headline);
+}
 
-    --sle-body: 14px;
-    --sle-body-small: 12px;
-    --sle-body-large: 16px;
+h2 {
+    font-size: var(--sle-title);
 }
 
 html, body {
@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
+    font-size: var(--sle-body);
     line-height:130%; 
     /*
     줄간격 130% 설정
