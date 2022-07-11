@@ -1,0 +1,26 @@
+.activities > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.activities > ul li {
+    display: flex;
+}
+
+.activities ul li section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 300px;
+}
+
+.activities .mock-img {
+    background-color: var(--sle-bg-light);
+    border-radius: 1.5rem;
+    width: 300px;
+    height: 150px;
+}
+
+.activities .description {
+    padding: 10px;
+}
