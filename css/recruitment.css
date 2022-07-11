@@ -1,0 +1,33 @@
+.recruitment section {
+    padding: 20px;
+}
+
+.recruitment section:nth-child(2) ul {
+    list-style: inside;
+}
+
+.recruitment section:nth-child(3) > div {
+    display: flex;
+}
+
+.recruitment .progress-bar {
+    width: 15px;
+    height: 100%;
+    background-color: var(--sle-bg);
+    position: relative;
+}
+
+.recruitment .points {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: absolute;
+}
+
+.recruitment .points div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--sle-green);
+}
