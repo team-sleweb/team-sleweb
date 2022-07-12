@@ -14,15 +14,22 @@
 
     --sle-headline: 28px;
     --sle-title: 22px;
+    --sle-subtitle: 19px;
     --sle-body: 16px;
 }
 
 h1 {
     font-size: var(--sle-headline);
+    padding: 20px 0;
 }
 
 h2 {
     font-size: var(--sle-title);
+    padding: 15px 0;
+}
+
+h3 {
+    font-size: var(--sle-subtitle);
 }
 
 html, body {
