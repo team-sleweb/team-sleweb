@@ -26,13 +26,7 @@
  .pname{
      text-align:left;
  }
- .ptitle{
-    font-size: var(--sle-headline-large);
- }
- .pintro{
-    font-size: var(--sle-body-large);
- }
- 
+
 
  
 

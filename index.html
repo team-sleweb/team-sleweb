@@ -13,6 +13,14 @@
     <link rel="stylesheet" type="text/css" href="css/activities.css">
     <link rel="stylesheet" type="text/css" href="css/recruitment.css">
     
+    <link rel="stylesheet"  href="newcss/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
+
+
     <title>슬기짜기</title>
 </head>
 <body>
@@ -83,13 +91,9 @@
                 </ul>
             </article>
             <article class="project">
-                <article class="pname">
-                    <article class="ptitle">
-                        방학 프로젝트
-                    </article>
-                    <article class="pintro">
-                        어떤 활동을 하나요??
-                    </article>
+                <article class="pname">   
+                        <h1>방학 프로젝트</h1>
+                        <h2>어떤 활동을 하나요??</h2>
                 </article>
                 <article class="pcontainer">
                     <article class="pitem">
@@ -101,61 +105,25 @@
                     -->
                 </article>
                     <article class="pitem">
-                        <!--<div class="pletters">B</div>-->
-                        <div class="container">
-                            <div class="modal-btn-box">
-                            <button type="button" id="modal-open">모달창 열기</button>  
-                            </div>
-                            
-                            <div class="popup-wrap" id="popup">
-                              <div class="popup">
-                                <div class="popup-head">
-                                    <span class="head-title">
-                                      MuziMuzi</span>
-                                </div>
-                                <div class="popup-body">
-                                  <div class="body-content">
-                                    <div class="body-titlebox">
-                                      <h1>Confirm Modal</h1>
-                                    </div>
-                                    <div class="body-contentbox">
-                                      <p>컨테이너 박스가 있고 그 안에 
-                          
-                          각각 가로값과 세로값이 다른 박스 아이템이 있습니다.
-                          
-                          위의 상태 그대로 라면 div의 기본속성은 display block이기 때문에 가로값과 관계없이 세로영역 만큼 한줄을 다 차지하기 때문에 
-                          
-                          div박스들은 아래와 같이 수직으로 떨어지게 됩니다.</p>
-                                    
-                                    <p>
-                                      다시 원점으로 돌아와서 
-                          
-                          flexbox의 부모요소와 자식요소는 각각 사용할 수 있는 속성이 있습니다.
-                          
-                          부모요소(flex container) 속성 : flex-direction, flex-wrap, justify-content, align-items, align-content
-                          
-                          자식요소(flex item) 속성 : flex, flex-grow, flex-shrink, flex-basis, order 
-                                    </p>
-                                    <p>
-                                      부모요소의
-                          
-                          flex-direction : flex item의 정렬 방향 (기본값 가로)
-                          
-                          justify-content : flex item의 수평 정렬 (기본값 flex-start)
-                          
-                          align-items : flex item의 수직 정렬 (기본값 stretch)
-                                    </p>
-                                    </div>
-                                    
-                                    
+                        <article class="pletters">B</article>
+                        <button id="testBtn" class="btn">모달 테스트</button>
+                        <!-- 회원가입 확인 Modal-->
+                          <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                      <div class="modal-header">
+                                          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                              <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                          </button>
+                                          <h3 class="modal-title" id="exampleModalLabel">모달테스트</h5>
+                                      </div>
+                                      <div class="modal-body">프로젝트 소개</div>
+                                      <div class="modal-footer">
+                                          <a class="btn" id="modalY" href="#">예</a>
+                                          <button class="btn" type="button" data-dismiss="modal">아니요</button>
+                                      </div>
                                   </div>
-                                </div>
-                                <div class="popup-foot">
-                                  <span class="pop-btn confirm" id="confirm">확인</span>
-                                  <span class="pop-btn close" id="close">창 닫기</span>
-                                </div>
                               </div>
-                          </div>
                           </div>
                        
                     </article>
@@ -194,9 +162,14 @@
     </main>
     <footer>footer</footer>
 
-    
 
-
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+       $('#testBtn').click(function(e){
+			e.preventDefault();
+			$('#testModal').modal("show");
+		}); 
+    </script>
 
 </body>
 </html>
