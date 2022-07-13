@@ -1,4 +1,4 @@
-.recruitment section {
+.recruitment > section {
     padding: 20px;
 }
 
@@ -8,21 +8,27 @@
 
 .recruitment section:nth-child(3) > div {
     display: flex;
+    flex-direction: column;
+    margin: 20px 0;
 }
 
 .recruitment .progress-bar {
-    width: 15px;
-    height: 100%;
-    background-color: var(--sle-bg);
     position: relative;
+    width: 100%;
+}
+
+.recruitment .bar {
+    background-color: var(--sle-bg);
+    border-radius: 5px;
+    height: 15px;
 }
 
 .recruitment .points {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    justify-content: space-around;
     position: absolute;
+    top: -50%;
+    width: 100%;
 }
 
 .recruitment .points div {
@@ -30,4 +36,36 @@
     height: 30px;
     border-radius: 50%;
     background-color: var(--sle-green);
+}
+
+.recruitment .contents {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.recruitment .contents li {
+    width: 20%;
+}
+
+.recruitment .apply {
+    text-align: center;
+}
+
+.recruitment .apply-btn {
+    background-color: var(--sle-green-light);
+    border: 3px solid var(--sle-bg-light);
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 20vw;
+}
+
+.recruitment .info h2 {
+    text-align: center;
+}
+
+.recruitment .info > div {
+    display: flex;
+    justify-content: space-evenly;
 }
