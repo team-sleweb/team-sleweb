@@ -70,6 +70,11 @@ body > main > section > article {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    background-color: var(--sle-bg-light);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul li {
+    padding: 5px 0;
 }
