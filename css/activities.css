@@ -17,10 +17,18 @@
 .activities .mock-img {
     background-color: var(--sle-bg-light);
     border-radius: 1.5rem;
-    width: 300px;
-    height: 150px;
+    width: 320px;
+    height: 200px;
 }
 
-.activities .description {
-    padding: 10px;
+.activities .mock-img img {
+    border-radius: 1.5rem;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.activities .description p {
+    color: var(--sle-text-light);
 }
