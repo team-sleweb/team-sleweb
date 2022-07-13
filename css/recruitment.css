@@ -48,3 +48,24 @@
 .recruitment .contents li {
     width: 20%;
 }
+
+.recruitment .apply {
+    text-align: center;
+}
+
+.recruitment .apply-btn {
+    background-color: var(--sle-green-light);
+    border: 3px solid var(--sle-bg-light);
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 20vw;
+}
+
+.recruitment .info h2 {
+    text-align: center;
+}
+
+.recruitment .info > div {
+    display: flex;
+    justify-content: space-evenly;
+}
