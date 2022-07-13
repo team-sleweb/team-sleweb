@@ -32,19 +32,21 @@ h3 {
     font-size: var(--sle-subtitle);
 }
 
+a:hover {
+  color: var(--sle-text-dark);  
+}
+
 html, body {
     height: 100%;
 }
 
 body {
+    color: var(--sle-text);
     display: flex;
     flex-direction: column;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: var(--sle-body);
-    line-height:130%; 
-    /*
-    줄간격 130% 설정
-    */
+    line-height:1.5rem;
 }
 
 body > main {
