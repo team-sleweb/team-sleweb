@@ -1,0 +1,21 @@
+header {
+    background-color: #b2fab4;
+    position: fixed;
+    width: 100%;
+    z-index: 777;
+}
+
+header > div {
+    display: flex;
+    align-items: stretch;
+    padding: 10px 20px;
+    height: 100%;
+}
+
+.sle_logo img {
+    margin-right: 10px;
+}
+
+.sle_label li:nth-child(2) {
+    font-size: var(--sle-title);
+}

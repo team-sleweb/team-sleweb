@@ -1,0 +1,35 @@
+.activities > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activities > ul li {
+    display: flex;
+}
+
+.activities ul li section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 300px;
+}
+
+.activities .mock-img {
+    background-color: var(--sle-bg-light);
+    border-radius: 1.5rem;
+    width: 320px;
+    height: 200px;
+}
+
+.activities .mock-img img {
+    border-radius: 1.5rem;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.activities .description p {
+    color: var(--sle-text-light);
+}
