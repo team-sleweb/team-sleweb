@@ -11,7 +11,7 @@
  }
 
  .pcontainer{ 
-    
+    padding:50px;
     display: grid; 
     grid-template-columns: repeat(2,320px);
     grid-template-rows:repeat(3,320px);
@@ -29,6 +29,7 @@
      border-radius:20px;
      border: solid 1px black;
      text-align: center;
+     
  }
  .pletters{
      text-align:center;

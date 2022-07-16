@@ -1,15 +1,7 @@
-.p22-1{ 
+.pcontainer{ 
     display: grid; 
-    grid-template-columns: repeat(4,320px);
+    grid-template-columns: repeat(2,320px);
     grid-template-rows:repeat(3,320px);
-    grid-gap:30px;
-    justify-content: left;
-    align-items:center;
- }
- .p21-2{
-    display: grid; 
-    grid-template-columns: repeat(4,320px);
-    grid-template-rows:repeat(2,320px);
     grid-gap:30px;
     justify-content: center;
     align-items:center;
@@ -30,8 +22,4 @@
      font-size: var(--sle-body-large);
      text-align: center;
      font-weight: bold;
- }
-
- h2{
-    align-content: center;
  }
