@@ -3,6 +3,7 @@
 }
 
 .recruitment section:nth-child(2) ul {
+    display: inline-block;
     list-style: inside;
 }
 
@@ -18,7 +19,7 @@
 }
 
 .recruitment .bar {
-    background-color: var(--sle-bg);
+    background-color: var(--sle-bg-dark);
     border-radius: 5px;
     height: 15px;
 }
@@ -54,11 +55,15 @@
 }
 
 .recruitment .apply-btn {
-    background-color: var(--sle-green-light);
+    background-color: #b2fab4;
     border: 3px solid var(--sle-bg-light);
     border-radius: 15px;
     padding: 20px 30px;
     width: 20vw;
+}
+
+.apply-btn:hover {
+    cursor: pointer;
 }
 
 .recruitment .info h2 {
@@ -67,5 +72,9 @@
 
 .recruitment .info > div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.recruitment .info > div a {
+    padding: 1.5rem
 }
