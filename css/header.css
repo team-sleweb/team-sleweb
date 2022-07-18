@@ -1,21 +1,29 @@
 header {
-    background-color: #b2fab4;
-    position: fixed;
-    width: 100%;
-    z-index: 777;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
 
-header > div {
+nav {
+    width: 40vw;
+}
+
+nav ul {
     display: flex;
-    align-items: stretch;
-    padding: 10px 20px;
-    height: 100%;
+    justify-content: space-around;
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+.sle_logo {
+    padding-top: 5px;
+    display: flex;
 }
 
 .sle_logo img {
     margin-right: 10px;
-}
-
-.sle_label li:nth-child(2) {
-    font-size: var(--sle-title);
 }
