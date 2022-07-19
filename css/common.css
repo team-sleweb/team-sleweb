@@ -8,9 +8,9 @@
     --sle-text-light: #6d6d6d;
     --sle-text-dark: #1b1b1b;
 
-    --sle-green: #00c853;
-    --sle-green-light: #5efc82;
-    --sle-green-dark: #009624;
+    --sle-green: #4aac40;
+    --sle-green-light: #7edf6f;
+    --sle-green-dark: #127F04;
 
     --sle-headline: 28px;
     --sle-title: 22px;
@@ -21,7 +21,6 @@
 h1 {
     font-size: var(--sle-headline);
     padding: 30px 0;
-    text-align: center;
 }
 
 h2 {
