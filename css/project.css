@@ -13,15 +13,26 @@
  .pcontainer{ 
     padding:50px;
     display: grid; 
-    grid-template-columns: repeat(2,320px);
-    grid-template-rows:repeat(3,320px);
+    grid-template-columns: repeat(4,320px);
+    grid-template-rows:repeat(2,320px);
     grid-gap:30px;
     justify-content: center;
     align-items:center;
  }
+ .container{ 
+   padding:50px;
+   display: grid; 
+   grid-template-columns: repeat(3,320px);
+   grid-template-rows:repeat(2,320px);
+   grid-gap:30px;
+   justify-content: center;
+   align-items:center;
+}
  .pitem{
      width:300px;
      height:300px;  
+     background-color:rgb(196, 192, 192);
+     border-radius: 20px;
  }
  .pimage{
      width:300px;
@@ -35,5 +46,9 @@
      text-align:center;
      font-size: var(--sle-body-large);
      text-align: center;
-     font-weight: bold;
+     color:black;
+     
+ }
+ .pbox{
+    background-color: gray;
  }
