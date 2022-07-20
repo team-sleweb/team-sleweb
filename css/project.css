@@ -1,4 +1,17 @@
-.pcontainer{ 
+
+ .projectname{
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 40px;
+ }
+ .contributor{
+    padding:20px;
+    text-align: left;
+ }
+
+ .pcontainer{ 
+    padding:50px;
     display: grid; 
     grid-template-columns: repeat(2,320px);
     grid-template-rows:repeat(3,320px);
@@ -13,9 +26,10 @@
  .pimage{
      width:300px;
      height:255px;
-     border-radius:30px;
+     border-radius:20px;
      border: solid 1px black;
      text-align: center;
+     
  }
  .pletters{
      text-align:center;
