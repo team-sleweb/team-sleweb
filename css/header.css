@@ -1,8 +1,8 @@
-a {
-    color: black;
+header a {
+    color: white;
 }
 
-a:hover {
+header a:hover {
     color: white;
 }
 
