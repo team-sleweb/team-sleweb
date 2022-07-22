@@ -1,24 +1,4 @@
 
- .projectname{
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align: left;
-    font-size: 40px;
- }
- .contributor{
-    padding:20px;
-    text-align: left;
- }
-
- .pcontainer{ 
-    padding:50px;
-    display: grid; 
-    grid-template-columns: repeat(4,320px);
-    grid-template-rows:repeat(2,320px);
-    grid-gap:30px;
-    justify-content: center;
-    align-items:center;
- }
  .container{ 
    padding:50px;
    display: grid; 
@@ -28,13 +8,13 @@
    justify-content: center;
    align-items:center;
 }
- .pitem{
+ .item{
      width:300px;
      height:300px;  
      background-color:rgb(196, 192, 192);
      border-radius: 20px;
  }
- .pimage{
+ .image{
      width:300px;
      height:255px;
      border-radius:20px;
@@ -42,13 +22,9 @@
      text-align: center;
      
  }
- .pletters{
-     text-align:center;
-     font-size: var(--sle-body-large);
-     text-align: center;
-     color:black;
+ .letters{
+      padding-left: 10px;
      
- }
- .pbox{
-    background-color: gray;
+     font-size: var(--sle-body-large);
+     text-align: center;    
  }
