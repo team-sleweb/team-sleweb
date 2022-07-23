@@ -63,3 +63,7 @@ body {
     font-size: var(--sle-body);
     line-height: 1.5rem;
 }
+
+#selected {
+    color: var(--sle-green);
+}
