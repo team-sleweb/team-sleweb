@@ -1,63 +1,123 @@
-.recruitment > section {
+main > section:nth-child(n+2) {
+    margin: 0 auto;
+    padding: 15vh 0;
+    text-align: center;
+    width: 60vw;
+}
+
+main > section:nth-child(n+2) li {
+    font-size: 1.2rem;
+}
+
+#banner {
+    background-color: var(--sle-green);
+    padding: 20vh 5vw;
+}
+
+#banner li {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
     padding: 20px;
 }
 
-.recruitment section:nth-child(2) ul {
-    display: inline-block;
-    list-style: inside;
+.title {
+    color: var(--sle-green);
+    margin-bottom: 20px;
 }
 
-.recruitment section:nth-child(3) > div {
+.process {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process li {
+    background-color: var(--sle-bg);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 10vw;
+    height: 15vh;
+}
+
+.process .arrow {
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.process .pass {
+    background-color: transparent;
+    border: 1px solid var(--sle-green);
+    color: var(--sle-green-dark);
+}
+
+.qualification li {
+    background-color: var(--sle-bg);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.plan > div {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
 }
 
-.recruitment .progress-bar {
+.plan .progress-bar {
     position: relative;
     width: 100%;
 }
 
-.recruitment .bar {
+.plan .bar {
     background-color: var(--sle-bg-dark);
     border-radius: 5px;
     height: 15px;
 }
 
-.recruitment .points {
+.plan .points {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: absolute;
     top: -50%;
     width: 100%;
 }
 
-.recruitment .points div {
+.plan .points div {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: var(--sle-green);
 }
 
-.recruitment .contents {
+.plan .contents {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 20px;
-    text-align: center;
 }
 
-.recruitment .contents li {
+.plan .contents li {
     width: 20%;
 }
 
-.recruitment .apply {
-    text-align: center;
+.contents li:first-child {
+    text-align: start;
 }
 
-.recruitment .apply-btn {
-    background-color: #b2fab4;
-    border: 3px solid var(--sle-bg-light);
+.contents li:last-child {
+    text-align: right;
+}
+
+.apply-btn {
+    background-color: var(--sle-green);
+    border: 1px solid var(--sle-green);
     border-radius: 15px;
+    color: white;
     padding: 20px 30px;
     width: 20vw;
 }
