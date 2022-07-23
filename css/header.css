@@ -1,14 +1,5 @@
-header a {
-    color: white;
-}
-
-header a:hover {
-    color: white;
-}
-
 header {
     align-items: center;
-    background-color: transparent;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
