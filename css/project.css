@@ -1,6 +1,5 @@
 body{
    line-height:1rem;
-
 }
 
 #banner {
@@ -18,6 +17,7 @@ body{
 .container{ 
    padding-left:235px;
    padding-top:50px;
+   padding-bottom: 100px;
    display: grid; 
    grid-template-columns: repeat(3,320px);
    grid-template-rows:repeat(2,400px);
@@ -29,7 +29,7 @@ body{
      height:400px;  
      background-color:white;
     border-radius: 10px;
-     border:solid 2px black;
+     border:solid 2px var(--sle-green);
  }
 
  .image{
@@ -37,29 +37,24 @@ body{
      height:250px;
      border-top-left-radius: 10px;
      border-top-right-radius: 10px;
-    border: solid 1px black;
-    
+    border: solid 1px var(--sle-green);
  }
 
  .letters{
       padding-left: 10px; 
-     font-size: var(--sle-body-large);
-        
+     font-size: var(--sle-body-large);      
  }
  
  .word{
    display: grid; 
    grid-template-columns: 220px 100px;
    grid-template-rows: 147px;
-   
-  
  }
 
  .text{
     width:220px;
     height:100px;
     padding-left:15px;
-    
     border-bottom-left-radius: 10px;
  }
 
@@ -81,20 +76,16 @@ body{
  }
 
  .icon{
-   
     width:100px;
     height:147px;
     border-bottom-left-radius: 10px ;
     border-bottom-right-radius: 10px;
-    
-   
  }
  .github{
    width:90px;
    height:60px;
    padding-top:85px;
   padding-left:7px;
-
  }
 
 
