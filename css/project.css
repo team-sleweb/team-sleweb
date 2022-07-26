@@ -1,4 +1,7 @@
+body{
+   line-height:1rem;
 
+}
 
 #banner {
     background-color: var(--sle-green);
@@ -12,73 +15,86 @@
     padding: 20px;
 }
 
- .container{ 
-   padding:50px;
+.container{ 
+   padding-left:235px;
+   padding-top:50px;
    display: grid; 
    grid-template-columns: repeat(3,320px);
    grid-template-rows:repeat(2,400px);
-   grid-gap:40px;
-   justify-content: center;
-   align-items:center;
+   grid-gap:30px;
 }
+
  .item{
      width:320px;
      height:400px;  
      background-color:white;
-     border-radius: 10px;
+    border-radius: 10px;
      border:solid 2px black;
  }
+
  .image{
      width:320px;
-     height:255px;
+     height:250px;
      border-top-left-radius: 10px;
      border-top-right-radius: 10px;
-     border: solid 1px black;
-     text-align: center;
-     
+    border: solid 1px black;
+    
  }
+
  .letters{
-      padding-left: 10px;
-     
+      padding-left: 10px; 
      font-size: var(--sle-body-large);
-     text-align: center;    
+        
  }
- .description{
-    text-align: center;
-    padding-top: 10px;
- }
- .divide{
-   
-    padding-top:15px;
-    width:305px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-    height:65px;
-    background-color:white;
-    padding-left: 15px;
-
+ 
+ .word{
    display: grid; 
-   grid-template-columns: repeat(2,140px);
-   grid-template-rows:repeat(1,50px);
-   grid-gap:10px;
+   grid-template-columns: 220px 100px;
+   grid-template-rows: 147px;
+   
   
-
-
  }
- .page{
-    text-align: center;
-    background-color: white;
-    border-radius: 20px;
-    border :solid 1px black;
- width:140px;
- height:50px;
+
+ .text{
+    width:220px;
+    height:100px;
+    padding-left:15px;
+    
+    border-bottom-left-radius: 10px;
+ }
+
+ .date{
+   padding-top:30px;
+   font-size:17px;
+ }
+
+ .name{
+   font-weight: bold;
+   padding-top:15px;
+   font-size:29px;
+ }
+
+ .describe{
+   padding-top:20px;
+   font-size:19px;
+   line-height: 1.3rem;
+ }
+
+ .icon{
+   
+    width:100px;
+    height:147px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    
+   
  }
  .github{
-    text-align: center;
-    background-color:white;
-    border :solid 1px black;
-    border-radius: 20px;
-    width:140px;
-    height:50px;
+   width:90px;
+   height:60px;
+   padding-top:85px;
+  padding-left:7px;
+
  }
+
+
