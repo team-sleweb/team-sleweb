@@ -1,16 +1,32 @@
 
 :root {
-    --sle-bg: #fafafa;
-    --sle-bg-light: #ffffff;
-    --sle-bg-dark: #c7c7c7;
+    --sle-bg-extra-light: var(--sle-bg-100);
+    --sle-bg-light: var(--sle-bg-200);
+    --sle-bg: var(--sle-bg-300);
+    --sle-bg-dark: var(--sle-bg-400);
+    --sle-bg-extra-dark: var(--sle-bg-500);
     
     --sle-text: #424242;
     --sle-text-light: #6d6d6d;
     --sle-text-dark: #1b1b1b;
 
-    --sle-green: #4aac40;
-    --sle-green-light: #7edf6f;
-    --sle-green-dark: #127F04;
+    --sle-green-extra-light: var(--sle-green-100);
+    --sle-green-light: var(--sle-green-200);
+    --sle-green: var(--sle-green-300);
+    --sle-green-dark: var(--sle-green-400);
+    --sle-green-extra-dark: var(--sle-green-500);
+
+    --sle-green-100: #B6FFA3;
+    --sle-green-200: #82E373;
+    --sle-green-300: #4EB044;
+    --sle-green-400: #2E9A21;
+    --sle-green-500: #238F14;
+
+    --sle-bg-100: #fafafa;
+    --sle-bg-200: #f5f5f5;
+    --sle-bg-300: #eeeeee;
+    --sle-bg-400: #e0e0e0;
+    --sle-bg-500: #bdbdbd;
 
     --sle-headline: 28px;
     --sle-title: 22px;
@@ -23,15 +39,10 @@ h1 {
     padding: 30px 0;
 }
 
-/*h2 {
-    font-size: var(--sle-title);
-    padding: 15px 0;
-}*/
 h2 {
     font-size: var(--sle-title);
-    
+    padding: 15px 0;
 }
-
 
 h3 {
     font-size: var(--sle-subtitle);
@@ -57,9 +68,32 @@ html, body {
 }
 
 body {
-    background-color: var(--sle-bg-light);
     color: var(--sle-text);
     font-family: 'Noto Sans KR', sans-serif;
     font-size: var(--sle-body);
     line-height: 1.5rem;
+}
+
+#selected {
+    color: var(--sle-green);
+}
+
+footer {
+    background-color: #1D231D;
+    color: white;
+    font-weight: 900;
+    padding: 5vh 10vw;
+}
+
+footer h2 {
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.icons {
+    padding-top: 30px;
+}
+
+.icons a {
+    padding: 0 15px;
 }

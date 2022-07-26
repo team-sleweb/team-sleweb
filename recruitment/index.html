@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" href="/css/common.css">
     <link rel="stylesheet" type="text/css" href="/css/header.css">
-    <link rel="stylesheet" type="text/css" href="/css/gallery.css">
-    <title>gallery</title>
+    <link rel="stylesheet" type="text/css" href="/css/recruitment.css">
+    <title>리쿠르팅</title>
 </head>
 <body>
     <header>
@@ -23,73 +20,72 @@
         <nav>
             <ul>
                 <li>About Us</li>
-                <li><a href="/project">Project</a></li>
-                <li id="selected">Gallery</li>
-                <li><a href="/recruitment/">Recruitment</a></li>
+                <li><a href="/project/">Project</a></li>
+                <li><a href="/gallery/">Gallery</a></li>
+                <li id="selected">Recruitment</li>
             </ul>
         </nav>
     </header>
-
     <main>
         <section id="banner">
             <h1>
                 <ul>
-                    <li>활동 Gallery</li>
+                    <li>2022-1</li>
+                    <li>슬기짜기 리쿠르팅</li>
                 </ul>
             </h1>
         </section>
-        <article class="category">
-            <article class="left">
-                <a href="/gallery/index.html">
-                    <article class="divide">
-                    전체
-                    </article>
-                </a>
-            </article>
-            <article class="left">
-                <a href="/gallery/22-1.html">
-                    <article class="divide">
-                    22-1
-                    </article>
-                </a>
-            </article>
-            <article class="main">
-                    <article class="dividemain">
-                    21-2
-                    </article>
-            </article>
-        </article>
-
-        <article class="gallery"> 
-            <section class="secondcontainer">
-                <article class="item"> 
-                    <img class="image" src="img/21-2/21-2.1.jpeg" onclick="window.open(this.src)">
-                    <article class="letters">21-2(1)</article>
-                </article>
-                <article class="item"> 
-                    <img class="image" src="img/21-2/21-2.2.jpeg" onclick="window.open(this.src)">
-                    <article class="letters">21-2(2)</article>
-                </article>
-                <article class="item"> 
-                    <img class="image" src="img/21-2/21-2.3.jpeg" onclick="window.open(this.src)">
-                    <article class="letters">21-2(3)</article>
-                </article>
-                <article class="item"> 
-                    <img class="image" src="img/21-2/21-2.4.jpeg" onclick="window.open(this.src)">
-                    <article class="letters">21-2(4)</article>
-                </article>
-                <article class="item"> 
-                    <img class="image" src="img/21-2/21-2.5.jpeg" onclick="window.open(this.src)">
-                    <article class="letters">21-2(5)</article>
-                </article>
-                <article class="item"> 
-                    <img class="image" src="img/21-2/21-2.6.jpeg" onclick="window.open(this.src)">
-                    <article class="letters">21-2(6)</article>
-                </article>
-            </section>
-        </article>
+        <section>
+            <h2 class="title">지원자격</h2>
+            <ul class="qualification">
+                <li><span>2학기 이상 활동 가능</span></li>
+                <li>매주 화요일 정기 모임 참여</li>
+                <li>필수 학기 중 방학 프로젝트 참여 가능</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="title">지원절차</h2>
+            <ul class="process">
+                <li><span>지원서 작성</span></li>
+                <li class="arrow">></li>
+                <li><span>화상 면접</span></li>
+                <li class="arrow">></li>
+                <li class="pass"><span>최종 합격</span></li>
+            </ul>
+        </section>
+        <section class="plan">
+            <h2 class="title">모집일정</h2>
+            <div>
+                <section class="progress-bar">
+                    <div class="bar"></div>
+                    <div class="points">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </section>
+                <ul class="contents">
+                    <li>
+                        <h3>지원 마감</h3>
+                        2022. 3. 5.
+                    </li>
+                    <li>
+                        <h3>면접</h3>
+                        2022. 3. 8 ~ 3. 11.
+                    </li>
+                    <li>
+                        <h3>최종 합격 발표</h3>
+                        2022. 3. 14.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <button type="button" class="apply-btn">
+                <h3>지원하기</h3>
+            </button>
+        </section>
     </main>
-
     <footer>
         <h1>슬기짜기</h1>
         <h2>경상북도 포항시 북구 흥해읍 남송리 3 한동대학교</h2>
@@ -107,6 +103,5 @@
             </a>
         </div>
     </footer>
-
 </body>
 </html>

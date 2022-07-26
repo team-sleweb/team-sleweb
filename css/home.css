@@ -12,6 +12,18 @@ body {
     flex-direction: column;
 }
 
+header {
+    background-color: transparent;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: white;
+}
+
 main {
     display: flex;
     flex: 1;
