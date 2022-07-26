@@ -5,11 +5,18 @@ h2{
  }
 
  #abt{
-    background-color: #ccffcc;
+    background-color: var(--sle-green);
+    color: aliceblue;
     height : 700px;
     line-height : 50px;
-
+    font-weight: 800;
  } 
+
+ strong{
+   background-color: white;
+   font-weight: 900;
+   opacity: 0.9;
+ }
 
  article{
    height : 50%;
@@ -23,13 +30,22 @@ h2{
  #why{
     text-align: center;
     font-size: 20px;
+    line-height : 30px;
  }
 
  #mid {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
  }
 
  #div {
     column-count: 2;
+ }
+
+ #foot h2 {
+    text-align: left;
+ }
+
+ #selected {
+    color: black;
  }
