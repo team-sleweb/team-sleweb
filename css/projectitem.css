@@ -1,8 +1,23 @@
-
+.outside{
+   width:1440px;
+   height:1930px;
+   background-color: var(--sle-bg-light);
+   padding-top:80px;
+   padding-left: 145px;
+}
 .each{
  padding-left:80px;
  padding-bottom: 100px;
+ width:1050px;
+ height:1700px;
+ background-color: white;
+ border-radius: 30px;
 }
+
+/*
+width 1360
+height 1870
+*/
 
  .container{ 
    padding-top:50px;
@@ -11,6 +26,8 @@
    grid-template-rows:repeat(1,255px);
    grid-gap:30px;
 }
+
+
 
  .item{
      width:300px;
@@ -88,7 +105,7 @@
    padding-top: 50px;
 }
 .reviewitem{
-   width:1000px;
+   width:950px;
    height:240px;  
    background-color:rgb(196, 192, 192);
    border-radius: 20px;
