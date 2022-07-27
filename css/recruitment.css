@@ -1,8 +1,15 @@
+main h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
 main > section:nth-child(n+2) {
-    margin: 0 auto;
-    padding: 15vh 0;
-    text-align: center;
-    width: 60vw;
+    padding: 10vh 5vw;
+}
+
+main > section:nth-child(even) {
+    background-color: var(--sle-bg-extra-light);
 }
 
 main > section:nth-child(n+2) li {
@@ -23,7 +30,18 @@ main > section:nth-child(n+2) li {
 
 .title {
     color: var(--sle-green);
-    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.qualification article {
+    width: 50vw;
+}
+
+.qualification li {
+    margin-bottom: 10vh;
 }
 
 .process {
@@ -53,14 +71,6 @@ main > section:nth-child(n+2) li {
     background-color: transparent;
     border: 1px solid var(--sle-green);
     color: var(--sle-green-dark);
-}
-
-.qualification li {
-    background-color: var(--sle-bg-light);
-    border-radius: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 20px;
 }
 
 .plan > div {
