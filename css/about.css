@@ -16,6 +16,8 @@ h2{
    background-color: white;
    font-weight: 900;
    opacity: 0.9;
+   border-radius: 10px;
+   padding: 0 3px;
  }
 
  article{
@@ -46,6 +48,7 @@ h2{
     text-align: left;
  }
 
- #selected {
-    color: black;
+ nav #selected {
+    color: white;
+    font-weight: bold;
  }
