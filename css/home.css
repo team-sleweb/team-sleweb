@@ -4,9 +4,9 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/project.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/main.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 0 75%;
     color: #fff;
     display: flex;
     flex-direction: column;
