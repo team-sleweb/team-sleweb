@@ -1,20 +1,20 @@
 body{
    line-height:1rem;
 }
-
-
 #banner {
+  
     background-color: var(--sle-green);
     padding: 20vh 5vw;
 }
-
 #banner li {
     color: white;
     font-size: 42px;
     font-weight: bold;
     padding: 20px;
 }
+.project{
 
+}
 .container{ 
    padding-left:235px;
    padding-top:50px;
@@ -24,7 +24,6 @@ body{
    grid-template-rows:repeat(2,400px);
    grid-gap:30px;
 }
-
  .item{
      width:320px;
      height:400px;  
@@ -32,51 +31,39 @@ body{
     border-radius: 10px;
      border:solid 2px var(--sle-green);
  }
-
  .image{
-     width:320px;
-     height:250px;
-     border-top-left-radius: 10px;
-     border-top-right-radius: 10px;
-    border: solid 1px var(--sle-green);
- }
-
- .letters{
-      padding-left: 10px; 
-     font-size: var(--sle-body-large);      
- }
- 
- .word{
-   display: grid; 
-   grid-template-columns: 220px 100px;
-   grid-template-rows: 147px;
- }
-
- .text{
-    width:220px;
-    height:100px;
-    padding-left:15px;
-    border-bottom-left-radius: 10px;
- }
-
- .date{
-   padding-top:30px;
-   font-size:17px;
- }
-
- .name{
-   font-weight: bold;
-   padding-top:15px;
-   font-size:29px;
- }
-
- .describe{
-   padding-top:20px;
-   font-size:19px;
-   line-height: 1.3rem;
- }
-
- .icon{
+  width:320px;
+  height:250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ border: solid 1px var(--sle-green);
+}
+.word{
+  display: grid; 
+  grid-template-columns: 220px 100px;
+  grid-template-rows: 147px;
+}
+.text{
+  width:220px;
+  height:100px;
+  padding-left:15px;
+  border-bottom-left-radius: 10px;
+}
+.date{
+ padding-top:30px;
+ font-size:17px;
+}
+.name{
+ font-weight: bold;
+ padding-top:15px;
+ font-size:29px;
+}
+.describe{
+ padding-top:20px;
+ font-size:19px;
+ line-height: 1.3rem;
+}
+.icon{
     width:100px;
     height:147px;
     border-bottom-left-radius: 10px ;
@@ -88,5 +75,3 @@ body{
    padding-top:43px;
   padding-left:30px;
  }
-
-
