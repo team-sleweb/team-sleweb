@@ -1,15 +1,16 @@
 .outside{
    width:1440px;
-   height:1930px;
-   background-color: var(--sle-bg-light);
+   height:1830px;
+   background-color: var(--sle-bg);
    padding-top:80px;
    padding-left: 145px;
 }
+
 .each{
  padding-left:80px;
- padding-bottom: 100px;
+ padding-bottom: 50px;
  width:1050px;
- height:1700px;
+ height:1550px;
  background-color: white;
  border-radius: 30px;
 }
@@ -99,20 +100,20 @@ height 1870
 .review{
    padding-top:50px;
    display: grid; 
-   grid-template-columns: repeat(1,1000px);
-   grid-template-rows:repeat(3,240px);
+   grid-template-columns: repeat(1,850px);
+   grid-template-rows:repeat(3,160px);
    grid-gap:20px;
    padding-top: 50px;
 }
 .reviewitem{
-   width:950px;
-   height:240px;  
+   width:690px;
+   height:160px;  
    background-color:rgb(196, 192, 192);
    border-radius: 20px;
 }
 .reviewimage{
-   width:240px;
-   height:240px;
+   width:160px;
+   height:160px;
    background-color: rgb(220,220,230);
    align-items: left;
    border-top-left-radius: 20px;

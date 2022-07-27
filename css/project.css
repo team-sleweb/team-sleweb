@@ -2,6 +2,7 @@ body{
    line-height:1rem;
 }
 
+
 #banner {
     background-color: var(--sle-green);
     padding: 20vh 5vw;
