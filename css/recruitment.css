@@ -81,30 +81,32 @@ main > section:nth-child(n+2) li {
 .process {
     display: flex;
     justify-content: space-between;
+    padding: 0 5vw;
 }
 
 .process li {
-    background-color: var(--sle-bg-light);
+    align-items: center;
+    background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-right: 10px;
     padding: 20px;
-    text-align: center;
-    width: 10vw;
-    height: 15vh;
+    width: 20vw;
 }
 
 .process .arrow {
     background-color: transparent;
-    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.process .interview, .pass {
+    border: 3px solid var(--sle-green);
 }
 
 .process .pass {
-    background-color: transparent;
-    border: 1px solid var(--sle-green);
     color: var(--sle-green-dark);
+    justify-content: center;
 }
 
 .apply-btn {
