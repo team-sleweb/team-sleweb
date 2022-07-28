@@ -18,16 +18,15 @@
 }
 .title{
    font-size:40px;
-   font-weight: bolder;
+   font-weight:900;
 }
 .contributor{
    padding-top:50px;
 }
 .normal{
-}
-.developer{
    padding-top:10px;
- }
+}
+
  .program{
     padding-top:30px;
  }
@@ -97,5 +96,6 @@
    align-items: center;
 }
  b{
+    font-weight: 700;
     font-size:20px;
  }
