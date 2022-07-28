@@ -1,8 +1,15 @@
+main h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
 main > section:nth-child(n+2) {
-    margin: 0 auto;
-    padding: 15vh 0;
-    text-align: center;
-    width: 60vw;
+    padding: 10vh 5vw;
+}
+
+main > section:nth-child(even) {
+    background-color: var(--sle-bg-extra-light);
 }
 
 main > section:nth-child(n+2) li {
@@ -23,118 +30,104 @@ main > section:nth-child(n+2) li {
 
 .title {
     color: var(--sle-green);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.qualification article {
+    width: 50vw;
+}
+
+.qualification ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qualification li {
+    margin-bottom: 10vh;
+}
+
+.plan ul {
+    padding: 0 20vw;
+}
+
+.plan li {
+    align-items: center;
+    background-color: var(--sle-green);
+    border-radius: 10px;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
     margin-bottom: 20px;
+    padding: 20px;
+    height: 10vh;
+}
+
+.plan li:first-child {
+    background-color: rgba(76, 175, 80, 0.3);
+}
+
+.plan li:nth-child(2) {
+    background-color: rgba(76, 175, 80, 0.5);
+}
+
+.plan li:last-child {
+    background-color: rgba(76, 175, 80, 0.7);
 }
 
 .process {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10vh;
+    padding: 0 5vw;
 }
 
 .process li {
-    background-color: var(--sle-bg-light);
+    align-items: center;
+    background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-right: 10px;
     padding: 20px;
-    text-align: center;
-    width: 10vw;
-    height: 15vh;
+    width: 20vw;
 }
 
 .process .arrow {
     background-color: transparent;
-    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.process .interview, .pass {
+    border: 3px solid var(--sle-green);
 }
 
 .process .pass {
-    background-color: transparent;
-    border: 1px solid var(--sle-green);
     color: var(--sle-green-dark);
+    justify-content: center;
 }
 
-.qualification li {
-    background-color: var(--sle-bg-light);
-    border-radius: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 20px;
-}
-
-.plan > div {
+.apply, .ask {
     display: flex;
-    flex-direction: column;
-    margin: 20px 0;
+    justify-content: center;
 }
 
-.plan .progress-bar {
-    position: relative;
-    width: 100%;
-}
-
-.plan .bar {
-    background-color: var(--sle-bg-dark);
-    border-radius: 5px;
-    height: 15px;
-}
-
-.plan .points {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: -50%;
-    width: 100%;
-}
-
-.plan .points div {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: var(--sle-green);
-}
-
-.plan .contents {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-
-.plan .contents li {
-    width: 20%;
-}
-
-.contents li:first-child {
-    text-align: start;
-}
-
-.contents li:last-child {
-    text-align: right;
-}
-
-.apply-btn {
+.sle-btn {
     background-color: var(--sle-green);
     border: 1px solid var(--sle-green);
     border-radius: 15px;
     color: white;
     padding: 20px 30px;
-    width: 20vw;
 }
 
-.apply-btn:hover {
+.sle-btn span {
+    font-size: 1.2rem;
+}
+
+.sle-btn:hover {
     cursor: pointer;
-}
-
-.recruitment .info h2 {
-    text-align: center;
-}
-
-.recruitment .info > div {
-    display: flex;
-    justify-content: center;
-}
-
-.recruitment .info > div a {
-    padding: 1.5rem
+    color: white;
 }

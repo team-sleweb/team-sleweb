@@ -4,9 +4,9 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/project.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/main.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 0 75%;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -16,11 +16,11 @@ header {
     background-color: transparent;
 }
 
-header a {
+a {
     color: white;
 }
 
-header a:hover {
+a:hover {
     color: white;
 }
 
@@ -31,13 +31,13 @@ main {
     padding: 70px 0 0 100px;
 }
 
-.sle_title {
+.sle_slogan {
     font-size: 2.5rem;
     font-weight: bold;
-    padding: 20px 0;
     line-height: 3rem;
+    padding-bottom: 50px;
 }
 
-.sle_title li {
+.sle_slogan li {
     padding: 5px 0;
 }
