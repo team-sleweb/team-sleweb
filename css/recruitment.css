@@ -1,5 +1,5 @@
 main h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     padding-bottom: 5vh;
 }
@@ -23,14 +23,14 @@ main > section:nth-child(n+2) li {
 
 #banner li {
     color: white;
-    font-size: 42px;
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 20px;
 }
 
 .title {
     color: var(--sle-green);
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 10vh;
     text-align: center;
@@ -153,6 +153,7 @@ main > section:nth-child(n+2) li {
 @media (max-width: 700px) {
     #banner li {
         font-size: 2rem;
+        padding: 10px;
     }
 
     .qualification article {
@@ -164,11 +165,11 @@ main > section:nth-child(n+2) li {
     }
 
     .plan li {
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
     }
 
     .title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .qna .title {
@@ -179,5 +180,12 @@ main > section:nth-child(n+2) li {
 
     .qna .title span {
         padding-bottom: 5vh;
+    }
+}
+
+@media (max-width: 360px) {
+    footer .contact {
+        display: flex;
+        flex-direction: column;
     }
 }
