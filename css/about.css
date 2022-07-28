@@ -7,7 +7,7 @@ h2{
  #abt{
     background-color: var(--sle-green);
     color: aliceblue;
-    height : 730px;
+    height : 760px;
     line-height : 50px;
     font-weight: 800;
  } 
@@ -38,6 +38,7 @@ h2{
  #mid {
     text-align: center;
     font-size: 25px;
+    font-weight: bold;
  }
 
  #div {
