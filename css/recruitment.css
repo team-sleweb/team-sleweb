@@ -93,12 +93,13 @@ main > section:nth-child(n+2) li {
     flex-direction: column;
     margin-right: 10px;
     padding: 20px;
-    width: 20vw;
+    width: 250px;
 }
 
 .process .arrow {
     background-color: transparent;
     justify-content: center;
+    width: 0;
 }
 
 .process .interview, .pass {
@@ -108,6 +109,7 @@ main > section:nth-child(n+2) li {
 .process .pass {
     color: var(--sle-green-dark);
     justify-content: center;
+    padding-bottom: 0;
 }
 
 .apply, .ask {
@@ -130,4 +132,52 @@ main > section:nth-child(n+2) li {
 .sle-btn:hover {
     cursor: pointer;
     color: white;
+}
+
+@media (max-width: 1300px) {
+    .process {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .process li {
+        margin-right: 0;
+        width: 50vw;
+    }
+
+    .process .arrow {
+        transform: rotate(90deg);
+    }
+}
+
+@media (max-width: 700px) {
+    #banner li {
+        font-size: 2rem;
+    }
+
+    .qualification article {
+        width: 75vw;
+    }
+
+    .plan ul {
+        padding: 0;
+    }
+
+    .plan li {
+        font-size: 1rem !important;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .qna .title {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .qna .title span {
+        padding-bottom: 5vh;
+    }
 }

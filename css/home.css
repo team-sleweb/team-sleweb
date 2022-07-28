@@ -41,3 +41,24 @@ main {
 .sle_slogan li {
     padding: 5px 0;
 }
+
+@media (max-width: 1300px) {
+    body {
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    main {
+        padding: 70px 0 0 20px;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .sle_slogan {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
