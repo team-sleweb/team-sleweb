@@ -81,6 +81,7 @@ main > section:nth-child(n+2) li {
 .process {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10vh;
     padding: 0 5vw;
 }
 
@@ -109,15 +110,24 @@ main > section:nth-child(n+2) li {
     justify-content: center;
 }
 
-.apply-btn {
+.apply, .ask {
+    display: flex;
+    justify-content: center;
+}
+
+.sle-btn {
     background-color: var(--sle-green);
     border: 1px solid var(--sle-green);
     border-radius: 15px;
     color: white;
     padding: 20px 30px;
-    width: 20vw;
 }
 
-.apply-btn:hover {
+.sle-btn span {
+    font-size: 1.2rem;
+}
+
+.sle-btn:hover {
     cursor: pointer;
+    color: white;
 }
